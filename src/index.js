@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import './assets/sass/style.scss'
 import reportWebVitals from './reportWebVitals';
+import AppRouter from './router/AppRouter';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <AppRouter></AppRouter>
   </React.StrictMode>
 );
 
