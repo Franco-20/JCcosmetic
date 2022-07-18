@@ -1,0 +1,13 @@
+.footer{
+    background-color: black;
+    color: white;
+}
+.info-footer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    & h5{
+       display: flex;
+       justify-content: center;
+    }
+}
